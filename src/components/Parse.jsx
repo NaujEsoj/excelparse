@@ -27,9 +27,9 @@ function Parse() {
       // Remove anything after "\r"
       const removeAfterCR = (Hname) => {
         if (typeof Hname === "string") {
-          return Hname.split("\r")[0];
+          return Hname.split("\r")[0].trim();
         } else {
-          return Hname; // Return the Hotel NAme as it is if not a string
+          return Hname; // Return the Hotel NAme as it is, if not a string
         }
       };
 
