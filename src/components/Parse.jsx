@@ -37,7 +37,41 @@ function Parse() {
       const  modifiedData = rawData.map((arr) => arr.map(removeAfterCR));
 
       // Filter arrays containing the specified names
-      const namesToFilter = ["Royal Decameron Mompiche", "Decameron Mompiche", "Decameron Club Caribbean", "Grand Decameron Montego Beach", "Grand Decameron Cornwall", "Grand Decameron Los Cabos", "Decameron Isla Coral", "Decameron Los Cocos", "Decameron La Marina", "Grand Decameron Complex", "Royal Decameron Punta Centinela", "Royal Decameron Punta Sal", "Grand Decameron Panama", "Grand Decameron Panamá", "Grand Decameron Panama PLUS", "Royal Decameron Salinitas", "Punta Sal", "El Pueblo", "Aquarium", "Delfines", "Isleño", "Marazul", "Maryland", "San Luis", "Baru", "Barú", "Baru Plus", "Cartagena", "Galeon", "Galeón", "Heliconias", "Panaca", "Ticuna", "San Pedro", "Rancho Tota", "Santa Ines", "Mompiche", "Centinela", "Salinitas", "Panama", "Panama Plus", "Indigo", "Cornwall", "Club Caribbean", "Montego", "Complex", "Los Cocos", "La Marina", "Isla Coral", "Los Cabos", "Panamá"];
+      const namesToFilter = ["Royal Decameron Mompiche", "Decameron Mompiche", "Decameron Club Caribbean", "Grand Decameron Montego Beach", "Grand Decameron Cornwall", "Grand Decameron Los Cabos", "Decameron Isla Coral", "Decameron Los Cocos", "Decameron La Marina", "Grand Decameron Complex", "Royal Decameron Punta Centinela", "Royal Decameron Punta Sal", "Grand Decameron Panama", "Grand Decameron Panamá", "Grand Decameron Panama PLUS", "Royal Decameron Salinitas", "Punta Sal", "El Pueblo", "Aquarium", "Delfines", "Isleño", "Marazul", "Maryland", "San Luis", "Baru", "Barú", "Baru Plus", "Cartagena", "Galeon", "Galeón", "Heliconias", "Panaca", "Ticuna", "San Pedro", "Rancho Tota", "Santa Ines", "Mompiche", "Centinela", "Salinitas", "Panama", "Panama Plus", "Indigo", "Cornwall", "Club Caribbean", "Montego", "Complex", "Los Cocos", "La Marina", "Isla Coral", "Los Cabos", "Panamá",
+        "mompiche",
+        "punta centinela",
+        "club caribbean",
+        "montego beach",
+        "cornwall",
+        "los cabos",
+        "los cabos plus",
+        "isla coral",
+        "los cocos",
+        "la marina",
+        "complex",
+        "panama",
+        "panama plus",
+        "salinitas",
+        "punta sal",
+        "punta sal plus",
+        "el pueblo",
+        "aquarium",
+        "delfines",
+        "isleno",
+        "marazul",
+        "maryland",
+        "san luis",
+        "baru",
+        "baru plus",
+        "cartagena",
+        "galeon",
+        "heliconias",
+        "panaca",
+        "ticuna",
+        "san pedro",
+        "rancho tota",
+        "santa ines"
+      ];
 
       let filteredData = [];
 
